@@ -1,0 +1,73 @@
+#olx-logo{
+    width: 80px;
+    height: 50px;
+    display: inline;
+    
+}
+#searchbar{
+    display: inline;
+    padding-right: 200px ;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: lightslategray;
+    /* padding-top: 5px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px; */
+}
+#search-logo{
+    color: green;
+    background: black;
+}
+.item{
+    width: 100px;
+    height: 100px;
+}
+/* ==========================product===================================================== */
+.firstrow{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+    margin: auto;
+    margin-top: 35px;
+
+}
+.box img{
+    width: 230px;
+}
+.box{
+    border: 2px solid black;
+    padding-bottom: 28%;
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 260px;
+    height: 230px;
+    cursor: pointer;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+}
+.box h2{
+    padding: 5px 0 0 20px;
+
+}
+.box p{
+    padding: 0 0 10px 20px;
+    color: gray;
+    font-size: 14px;
+}
+.addressdata{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+#watch{
+    width: 150px;
+    padding-left: 40px;
+}
+#phone{
+    width: 100px;
+}
