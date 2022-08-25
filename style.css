@@ -41,9 +41,9 @@
     border: 2px solid black;
     padding-bottom: 28%;
     padding-left: 10px;
-    padding-right: 20px;
+    padding-right: 10px;
     width: 260px;
-    height: 230px;
+    height: 450px;
     cursor: pointer;
 }
 .box a{
@@ -55,19 +55,39 @@
 
 }
 .box p{
-    padding: 0 0 10px 20px;
+   
     color: gray;
     font-size: 14px;
 }
 .addressdata{
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+#plot{
+    width: 250px;
+    height: 250px;
+    padding-right: 17px;
+}
+#lcd{
+    width: 250px;
+    height: 250px;
+    padding-right: 17px;
+    padding-top: 13px;
+
 }
 #watch{
-    width: 150px;
-    padding-left: 40px;
+    padding-top: 15px;
 }
 #phone{
-    width: 100px;
+    width: 230px;
+    height: 270px;
+    padding-top: 13px;
+    padding-right: 8px;
+
+}
+#phone-2{
+    width: 230px;
+    height: 270px;
+    padding-top: 5px;
 }
