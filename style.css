@@ -1,26 +1,47 @@
 #olx-logo{
-    width: 80px;
+    width: 100px;
     height: 50px;
-    display: inline;
+    /* display: inline; */
+    
     
 }
-#searchbar{
+#navbar{
+    background-color: rgb(243, 221, 193);
+}
+#searchbar-2{
+    font-size: 20px;
+    box-sizing: 20px;
     display: inline;
     padding-right: 200px ;
     margin: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: lightslategray;
+    color: black;
+    width: 40%;
+
+}
+#searchbar-1{
+    width: 20%;
+    font-size: 20px;
+    box-sizing: 20px;
+    display: inline;
+    padding-right: 200px ;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    max-width: 450%;
     /* padding-top: 5px;
     padding-bottom: 15px;
     text-align: center;
     margin-left: 40px;
     margin-top: 20px; */
 }
-#search-logo{
-    color: green;
-    background: black;
+#navbar{
+    height: 100%;
+    width: 100%;
 }
+
 .item{
     width: 100px;
     height: 100px;
@@ -90,4 +111,37 @@
     width: 230px;
     height: 270px;
     padding-top: 5px;
+}
+#olx-logo-1{
+   color: lightskyblue; 
+   height: 60px;
+   width: 80px;
+}
+
+#olx{
+    font-size:100%;
+    color: rgba(11, 226, 226, 0.692);
+    /* padding-left: 10px; */
+    display: inline;
+}
+#motors-1{
+   padding-left: 10%;
+    margin: 15px;
+    display: inline;
+   
+}
+#properties{
+    display: inline;
+}
+#motors-1:hover{
+    color: blue
+}
+#properties:hover{
+    color: blue;
+}
+.fa-solid{
+    margin-left: 20px;
+}
+#body{
+    background: #000;
 }
